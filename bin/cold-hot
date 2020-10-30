@@ -8,7 +8,7 @@
         require_once($autoloadPathForPackagist);
     }
 
-    use function NikitaMakshev\Coldhot\Controller\startGame;
+    use function NikitaMakshev\Coldhot\Controller\mainMenu;
+    mainMenu();
 
-    startGame();
 ?>
