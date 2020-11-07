@@ -1,7 +1,8 @@
-<?php 
+<?php
 
 namespace NikitaMakshev\Coldhot\View;
 
-function showGame() {
-    echo "Cold-hot\n";    
+function showGame()
+{
+    echo "Cold-hot\n";
 }

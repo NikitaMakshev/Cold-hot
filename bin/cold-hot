@@ -9,6 +9,10 @@
     }
 
     use function NikitaMakshev\Coldhot\Controller\mainMenu;
-    mainMenu();
+	
+	if(isset($argv[1]))
+   		mainMenu($argv);
+   	else
+   		\cli\line("Ключ не введен");
 
 ?>
